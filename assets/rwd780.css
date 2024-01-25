@@ -1,0 +1,104 @@
+body {
+    background-color:	#ECF5FF;
+    font-size: 75%;  /*字的大小會因為視窗的大小而縮放*/
+}
+* {
+    margin:0;
+    padding:0;
+}
+#allpage {
+    width:90%;
+    margin:0 auto;
+}
+header {
+    width:100%;
+}
+.logo-img {
+    width:100%;
+    
+}
+/* 點開頭的是 用 class */
+.title1 {
+    width:100%;
+    background-color:#ACD6FF;
+    border-radius:5px;
+    line-height:1.75em;
+    text-align:left;
+    padding-left: 10px;
+    padding-bottom: 0px; 
+    color:	#005AB5;
+}
+
+/* 廠區選單列 */
+.menu {
+    width:100%;
+    overflow:hidden;            
+    background-color:#ACD6FF;
+    border-radius:5px;
+    list-style-type:none;
+    margin-top:2px;
+   
+}
+.menu li {
+    width:7em;
+    line-height:2.5em;
+    float:left;
+    
+}
+.menu li a {
+    display:block;
+    text-align:center;
+    color:	#005AB5;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.menu li a:link {
+    text-decoration:none;
+}
+.menu li a:hover {
+    background-color: #FF8283;
+    color:	#ffffff;
+    border-radius:5px;
+}
+
+
+
+#content {
+    width:100%;
+    overflow:auto;
+}
+.article {
+    width: 100%;  /*文章的大小會因為視窗的縮小和aside的排版，變成上下排列*/
+    /* float:left; */
+}
+.section {
+    background-color:#ffffff;
+    border-radius:5px;
+    margin:10px 0;
+    padding:20px 26px;
+    line-height:2em;
+}
+
+.aside {
+    width:100%;
+    /* float:right; */
+    
+}
+footer {
+    background-color:	#ACD6FF;
+    border-radius:5px;
+    text-align:center;
+    line-height:2.5em;
+    color:	#4F4F4F;
+}
+
+
+.custom-tabs {
+    background-color: #2D3038;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    height: fit-content;
+    cursor: pointer;
+  }

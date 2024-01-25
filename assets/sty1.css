@@ -1,0 +1,30 @@
+.st1{
+    color: royalblue;
+    text-decoration: underline;
+}
+#colH1{
+    color: darkorange;
+}
+.st2{
+    color: yellowgreen;
+    font-style: italic;
+}
+.col1{
+    color: sienna;
+}
+.col2{
+    color: violet;
+}
+.size1{
+    font-size: 50pt;
+}
+.under1{
+    text-decoration: underline;
+}
+.sty1{
+    font-style: italic;
+}
+p{
+    color: darkolivegreen;
+    font-style: italic;
+}
